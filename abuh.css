@@ -1,0 +1,28 @@
+.wrapper{
+    position: relative;
+    top: 5vh;
+}
+#button{
+    border: 5px solid rgb(0, 0, 0);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: auto;
+    background: rgb(0, 255, 76);
+}
+#button:hover{
+    background:rgb(243, 11, 11);
+}
+#message{
+    font-size:26px;
+    margin-bottom:30px;
+    text-align: center;
+}
+.hide{
+    visibility: hidden;    
+}
+.reveal{
+    visibility: visible;
+}
