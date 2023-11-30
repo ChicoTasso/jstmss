@@ -14,8 +14,8 @@ console.log(comprimento)
 console.log(altura)
 const area = document.body;
 function coordenadasMouse(j) {
-    var posicaoHorizontal = comprimento + j.clientY + 10;
-    var posicaoVertical= altura - j.clientX - 10;
+    var posicaoHorizontal = comprimento - j.clientX - 50;
+    var posicaoVertical= altura - j.clientY - 50;
     circulo.style.left = posicaoHorizontal + 'px';
     circulo.style.top = posicaoVertical + 'px';
 }
